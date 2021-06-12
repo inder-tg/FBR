@@ -1,0 +1,43 @@
+Descripcion de archivos
+
+===== Fraccion de agua =====
+
+Nomenclatura de nombre de archivo:
+MN_YYYYDOY_LCC_500m_water_fraction.tif
+
+MN = Marismas Nacionales
+YYYY = Año 
+DOY = Día del año;	082 temporada seca 22/03/2008
+		290 temporada lluviosa 16/10/2008
+LCC = Proyeccion
+500m = resulucion espacial (tamaño de pixel)
+water_fraction = Porcentaje de agua por pixel, valores de 0 a 100%
+	        derivado de un mapa de agua/noagua generado con imagenes Landsat a 30 m
+
+===== Indice Normalizado ====
+
+Nomenclatura de nombre de archivo:
+MNDWI6_YYYYDOY_2008_00_00_3004.tif
+
+MNDWI6 = indice (Modified Normalized Difference Water Index)
+2000001 = YYYYDOY
+2000 = YYYY 
+00_00 = hacer caso omiso
+0001 = numero continuo en la serie diaria
+
+Detalles:
+Columns_and_Rows: 246, 360 
+Cell_Size__X._Y: 500 m 
+Proyección Conica Conforme de Lambert de INEGI Mexico
+
+===== Serie diaria del indice =====
+
+Folders:
+
+/MNDWI6_linear_secas	= serie 2000 - 2008, a partir de bandas interpoladas lineal, temporada seca
+			   1.34 GB, 4071 elementos
+
+/MNDWI6_linear_lluvias	= serie 2000 - 2008, a partir de bandas interpoladas lineal, temporada lluviosa
+			   0.972 GB, 2869 elementos
+
+Los nombres de los archivos tienen la misma nomenclaura de Indice Normalizado
